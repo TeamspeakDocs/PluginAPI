@@ -1,7 +1,7 @@
 /*
  * TeamSpeak 3 demo plugin
  *
- * Copyright (c) 2008-2014 TeamSpeak Systems GmbH
+ * Copyright (c) 2008-2015 TeamSpeak Systems GmbH
  */
 
 #ifdef _WIN32
@@ -13,11 +13,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-#include "public_errors.h"
-#include "public_errors_rare.h"
-#include "public_definitions.h"
-#include "public_rare_definitions.h"
-#include "ts3_functions.h"
+#include "teamspeak/public_errors.h"
+#include "teamspeak/public_errors_rare.h"
+#include "teamspeak/public_definitions.h"
+#include "teamspeak/public_rare_definitions.h"
+#include "teamspeak/clientlib_publicdefinitions.h"
+#include "../../ts3_functions.h"
 #include "plugin.h"
 
 static struct TS3Functions ts3Functions;
