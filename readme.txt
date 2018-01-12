@@ -1,5 +1,5 @@
 TeamSpeak 3 plugin development kit
-Copyright (c) 2008-2015 TeamSpeak Systems GmbH
+Copyright (c) 2008-2016 TeamSpeak Systems GmbH
 
 Contents
 - Demo plugin sourcecode as template for developing own plugins
