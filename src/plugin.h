@@ -1,7 +1,7 @@
 /*
  * TeamSpeak 3 demo plugin
  *
- * Copyright (c) 2008-2016 TeamSpeak Systems GmbH
+ * Copyright (c) 2008-2017 TeamSpeak Systems GmbH
  */
 
 #ifndef PLUGIN_H
@@ -139,6 +139,9 @@ PLUGINS_EXPORTDLL void ts3plugin_onMenuItemEvent(uint64 serverConnectionHandlerI
 PLUGINS_EXPORTDLL void ts3plugin_onHotkeyEvent(const char* keyword);
 PLUGINS_EXPORTDLL void ts3plugin_onHotkeyRecordedEvent(const char* keyword, const char* key);
 PLUGINS_EXPORTDLL void ts3plugin_onClientDisplayNameChanged(uint64 serverConnectionHandlerID, anyID clientID, const char* displayName, const char* uniqueClientIdentifier);
+PLUGINS_EXPORTDLL const char* ts3plugin_keyDeviceName(const char* keyIdentifier);
+PLUGINS_EXPORTDLL const char* ts3plugin_displayKeyText(const char* keyIdentifier);
+PLUGINS_EXPORTDLL const char* ts3plugin_keyPrefix();
 
 #ifdef __cplusplus
 }
