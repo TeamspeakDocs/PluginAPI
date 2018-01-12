@@ -59,6 +59,7 @@ const unsigned int ERROR_server_is_not_running                  = 0x0409;
 const unsigned int ERROR_server_is_booting                      = 0x040a;
 const unsigned int ERROR_server_status_invalid                  = 0x040b;
 const unsigned int ERROR_server_version_outdated                = 0x040d;
+const unsigned int ERROR_server_duplicate_running               = 0x040e;
 
 //parameter
 const unsigned int ERROR_parameter_quote                        = 0x0600;
